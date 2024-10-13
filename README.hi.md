@@ -10,7 +10,7 @@
 
 "Mermaid.js के साथ पाठ-आधारित इकाई संबंध आरेख" पर आधारित<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
-Based on "FlowBite" at <https://github.com/themesberg/flowbite>
+"फ्लोबाइट" पर आधारित<https://github.com/themesberg/flowbite>
 
 इस URL को इसके साथ खोलें`https://github.dev/`के बजाय`https://github.dev/`विज़ुअल स्टूडियो कोड वेब-आधारित आईडीई का उपयोग करने के लिए।
 
@@ -49,8 +49,8 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## डेटा इनपुट
 
-कार्य डेटा सीएसवी फ़ाइल में दिए गए नमूना प्रारूप में दिया जाना चाहिए (`tasks.csv`और`tasks2.csv`),
-i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
+कार्य डेटा सीएसवी फ़ाइल में दिए गए नमूना प्रारूप में दिया जाना चाहिए (`tasks.csv` and `tasks2.csv`),
+यानी दूसरी से शुरू होने वाली प्रत्येक पंक्ति में एक कार्य, उसकी अवधि और उसकी सभी निर्भरताएँ रिक्त स्थान से अलग होनी चाहिए
 
 ## इसका परीक्षण करें
 
