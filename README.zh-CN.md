@@ -6,8 +6,8 @@
 
 该项目使用python3，必须安装以下库才能运行：
 
--   [网络X](https://networkx.github.io/) - Used to make the PERT graph.
--   [Matplotlib](https://matplotlib.org/) - Used to make the Gantt chart, as well as show and save both the PERT graph and Gantt chart.
+-   [网络X](https://networkx.github.io/)- 用于制作 PERT 图。
+-   [Matplotlib](https://matplotlib.org/)- 用于制作甘特图，以及显示和保存 PERT 图和甘特图。
 
 ## 数据输入
 
