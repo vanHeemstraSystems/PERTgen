@@ -16,4 +16,4 @@
 
 ## 測試一下
 
-可以透過執行簡單的 tkinter GUI 來測試該項目`gui.py`使用 python3 解釋器，儘管所有重要的程式碼都在`pert.py`也可以在指定要載入的檔案後運行。
+The project can be tested with the simple tkinter GUI by running `gui.py`使用 python3 解釋器，儘管所有重要的程式碼都在`pert.py`也可以在指定要載入的檔案後運行。
