@@ -1,6 +1,6 @@
 # PERT基因
 
-> 用於在給定任務計劃的情況下產生 PERT 圖和甘特圖的 Python 程式碼。
+> Python code to generate a PERT graph and Gantt chart given a task schedule.
 
 基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -16,7 +16,7 @@
 
 按如下方式運行該應用程式：
 
-1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app` directory: `$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
+1) 輸入`flask_app`目錄：`$ cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`$ python3 -m venv .venv`（蘋果系統：`$ virtualenv .venv`)
 
 若出現以下情況，請遵循其建議：
 
@@ -45,12 +45,12 @@
 此專案使用python3，必須安裝以下程式庫才能運作：
 
 -   [網路X](https://networkx.github.io/)- 用於製作 PERT 圖。
--   [Matplotlib](https://matplotlib.org/) - Used to make the Gantt chart, as well as show and save both the PERT graph and Gantt chart.
+-   [Matplotlib](https://matplotlib.org/)- 用於製作甘特圖，以及顯示和保存 PERT 圖和甘特圖。
 
 ## 資料輸入
 
 任務資料必須以 CSV 檔案的形式提供，格式為給定的範例資料 (`tasks.csv`和`tasks2.csv`),
-即從第二行開始的每一行都應該有一個任務、其持續時間及其所有依賴項，並用空格分隔
+i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
 
 ## 測試一下
 
