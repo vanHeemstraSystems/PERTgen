@@ -11,7 +11,7 @@
 
 ## 数据输入
 
-The task data must be given in a CSV file, in the format of the sample ones given (`tasks.csv`和`tasks2.csv`),
+任务数据必须以 CSV 文件的形式提供，格式为给定的示例数据 (`tasks.csv`和`tasks2.csv`),
 即从第二行开始的每一行都应该有一个任务、其持续时间及其所有依赖项，并用空格分隔
 
 ## 测试一下
