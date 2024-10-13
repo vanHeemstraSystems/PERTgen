@@ -6,14 +6,14 @@
 
 يستخدم هذا المشروع python3، ويجب تثبيت المكتبات التالية لتشغيله:
 
--   [نتورككس](https://networkx.github.io/)- يستخدم لعمل الرسم البياني PERT.
+-   [نتورككس](https://networkx.github.io/) - Used to make the PERT graph.
 -   [ماتبلوتليب](https://matplotlib.org/)- يستخدم لإنشاء مخطط جانت، بالإضافة إلى إظهار وحفظ كل من الرسم البياني PERT ومخطط جانت.
 
 ## إدخال البيانات
 
-يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv`و`tasks2.csv`)،
-أي أن كل صف يبدأ من الصف الثاني يجب أن يكون له مهمة ومدتها وجميع تبعياتها مفصولة بمسافات
+يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv` and `tasks2.csv`),
+i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
 
 ## اختبره
 
-يمكن اختبار المشروع باستخدام واجهة المستخدم الرسومية tkinter البسيطة عن طريق التشغيل`gui.py`مع مترجم python3، على الرغم من أن كل التعليمات البرمجية المهمة موجودة`pert.py`والتي يمكن تشغيلها أيضًا بعد تحديد الملف الذي سيتم تحميله.
+The project can be tested with the simple tkinter GUI by running `gui.py`مع مترجم python3، على الرغم من أن كل التعليمات البرمجية المهمة موجودة`pert.py`والتي يمكن تشغيلها أيضًا بعد تحديد الملف الذي سيتم تحميله.
