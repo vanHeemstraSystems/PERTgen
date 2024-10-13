@@ -1,6 +1,6 @@
 # PERT基因
 
-> Python code to generate a PERT graph and Gantt chart given a task schedule.
+> 用於在給定任務計劃的情況下產生 PERT 圖和甘特圖的 Python 程式碼。
 
 基於“如何使用 Flask 藍圖和 Flask-SQLAlchemy 建立大型 Flask 應用程式”，位於<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -35,7 +35,7 @@
 在 macOS 上請參閱<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3）啟動虛擬環境，輸入：`. .venv/bin/activate`（蘋果系統：`source .venv/bin/activate`）
-4）運行`$ pip install -r requirements.txt`5）運行：`$ npm install`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) 設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
+4）運行`$ pip install -r requirements.txt`5）運行：`$ npm install`6）將Flask App設定到app目錄：`(.venv) $ export FLASK_APP=app`7）將Flask環境設定為True進行開發：`(.venv) $ export FLASK_DEBUG=True`8) 設定 SQLAlchemy 資料庫 URI：`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`，預設為`sqlite:///app.db`9）設定SQLAlchemy軌道修改：`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10）設定密鑰：`(.venv) $ export SECRET_KEY=********`11）運行燒瓶應用程式：`(.venv) $ flask run`12）根據提示開啟Web介面
 13) 使用`CTRL+c`退出網路伺服器。
 14) 或運行flask命令列介面：`(.venv) $ flask shell`15) 執行任意 Flask 指令：>>>
 16) 使用`exit()`退出命令列介面。
@@ -50,7 +50,7 @@
 ## 資料輸入
 
 任務資料必須以 CSV 檔案的形式提供，格式為給定的範例資料 (`tasks.csv`和`tasks2.csv`),
-i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
+即從第二行開始的每一行都應該有一個任務、其持續時間及其所有依賴項，並用空格分隔
 
 ## 測試一下
 
