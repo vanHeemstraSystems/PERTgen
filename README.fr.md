@@ -2,7 +2,7 @@
 
 > Code Python pour générer un graphique PERT et un diagramme de Gantt en fonction d'un calendrier de tâches.
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+Basé sur « Comment structurer une grande application Flask avec des plans Flask et Flask-SQLAlchemy » sur<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -12,7 +12,7 @@ Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mer
 
 Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
 
-Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
+Ouvrez cette URL avec`https://github.dev/` instead of `https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
 Exécutez cette application comme suit :
 
@@ -49,7 +49,7 @@ Ce projet utilise python3 et les bibliothèques suivantes doivent être install�
 
 ## Saisie de données
 
-Les données de la tâche doivent être renseignées dans un fichier CSV, au format de ceux donnés en exemple (`tasks.csv`et`tasks2.csv`),
+The task data must be given in a CSV file, in the format of the sample ones given (`tasks.csv`et`tasks2.csv`),
 c'est-à-dire que chaque ligne à partir de la seconde doit avoir une tâche, sa durée et toutes ses dépendances séparées par des espaces
 
 ## Testez-le
