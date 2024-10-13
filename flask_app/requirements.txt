@@ -18,5 +18,5 @@ python-engineio==4.9.1
 python-socketio==5.11.4
 Werkzeug>=2.2,<3.0
 WTForms==3.0.1
-networkx
-matplotlib
+networkx==3.4.1
+matplotlib==3.9.2
