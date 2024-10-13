@@ -1,17 +1,17 @@
 # بيرتجن
 
-Python code to generate a PERT graph and Gantt chart given a task schedule.
+كود بايثون لإنشاء رسم بياني PERT ومخطط جانت مع إعطاء جدول المهام.
 
 ## متطلبات
 
-يستخدم هذا المشروع python3، ويجب تثبيت المكتبات التالية لتشغيله:
+This project uses python3, and the following libraries must be installed to run it:
 
 -   [نتورككس](https://networkx.github.io/)- يستخدم لعمل الرسم البياني PERT.
--   [ماتبلوتليب](https://matplotlib.org/) - Used to make the Gantt chart, as well as show and save both the PERT graph and Gantt chart.
+-   [ماتبلوتليب](https://matplotlib.org/)- يستخدم لإنشاء مخطط جانت، بالإضافة إلى إظهار وحفظ كل من الرسم البياني PERT ومخطط جانت.
 
 ## إدخال البيانات
 
-يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv`و`tasks2.csv`)،
+The task data must be given in a CSV file, in the format of the sample ones given (`tasks.csv`و`tasks2.csv`)،
 أي أن كل صف يبدأ من الصف الثاني يجب أن يكون له مهمة ومدتها وجميع تبعياتها مفصولة بمسافات
 
 ## اختبره
