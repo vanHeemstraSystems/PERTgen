@@ -29,8 +29,8 @@ package à l’aide de la commande suivante.
     sudo apt-get update
     sudo apt install python3.10-venv
 
-Vous devrez peut-être utiliser sudo avec cette commande.  Après avoir installé python3-venv
-package, recréez votre environnement virtuel.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 Sur macOS, voir<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
