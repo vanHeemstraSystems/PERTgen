@@ -6,13 +6,13 @@ Code Python pour générer un graphique PERT et un diagramme de Gantt en fonctio
 
 Ce projet utilise python3 et les bibliothèques suivantes doivent être installées pour l'exécuter :
 
--   [RéseauX](https://networkx.github.io/) - Used to make the PERT graph.
+-   [RéseauX](https://networkx.github.io/)- Utilisé pour réaliser le graphique PERT.
 -   [Matplotlib](https://matplotlib.org/)- Utilisé pour créer le diagramme de Gantt, ainsi que pour afficher et enregistrer le graphique PERT et le diagramme de Gantt.
 
 ## Saisie de données
 
 Les données de la tâche doivent être renseignées dans un fichier CSV, au format de ceux donnés en exemple (`tasks.csv`et`tasks2.csv`),
-i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
+c'est-à-dire que chaque ligne à partir de la seconde doit avoir une tâche, sa durée et toutes ses dépendances séparées par des espaces
 
 ## Testez-le
 
