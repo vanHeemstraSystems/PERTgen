@@ -1,6 +1,6 @@
 # PERTgen
 
-Python code to generate a PERT graph and Gantt chart given a task schedule.
+Code Python pour générer un graphique PERT et un diagramme de Gantt en fonction d'un calendrier de tâches.
 
 ## Exigences
 
@@ -16,4 +16,4 @@ c'est-à-dire que chaque ligne à partir de la seconde doit avoir une tâche, sa
 
 ## Testez-le
 
-Le projet peut être testé avec la simple interface graphique tkinter en exécutant`gui.py` with the python3 interpreter, although all the important code is in `pert.py`qui peut également être exécuté après avoir spécifié quel fichier doit être chargé.
+Le projet peut être testé avec la simple interface graphique tkinter en exécutant`gui.py`avec l'interpréteur python3, bien que tout le code important soit dans`pert.py`qui peut également être exécuté après avoir spécifié quel fichier doit être chargé.
