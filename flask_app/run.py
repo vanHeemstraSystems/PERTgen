@@ -54,9 +54,10 @@ def make_pert_chart(graph, startTimes, completionTimes, slackTimes, criticalPath
     edges = g.edges()
     colors = [g[u][v]['color'] for u,v in edges]
     
-    # nx.draw(g, pos, edges = edges,with_labels = True, edge_color = colors)
-    # plt.savefig('pert.png', bbox_inches = 'tight')
-    # plt.show()
+    # nx.draw(g, pos, edges = edges,with_labels = True, edge_color = colors) # DEPRECATED
+    nx.draw(g, pos, edgelist = edges,with_labels = True, edge_color = colors)
+    plt.savefig('pert.png', bbox_inches = 'tight')
+    plt.show()
 
 
 
