@@ -1,6 +1,6 @@
 # بيرتجن
 
-> كود بايثون لإنشاء رسم بياني PERT ومخطط جانت مع إعطاء جدول المهام.
+> Python code to generate a PERT graph and Gantt chart given a task schedule.
 
 استنادًا إلى "كيفية إنشاء تطبيق قارورة كبيرة باستخدام مخططات قارورة وFlask-SQLAlchemy" في<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
@@ -8,7 +8,7 @@
 
 بناءً على "نمط المصنع" في<https://github.com/vanHeemstraSystems/factory-pattern>
 
-استنادًا إلى "الرسوم التخطيطية لعلاقة الكيانات المستندة إلى النص مع Mermaid.js" في<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
+Based on "Text-Based Entity Relationship Diagrams with Mermaid.js" at <https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 بناء على "FlowBite" في<https://github.com/themesberg/flowbite>
 
@@ -45,12 +45,12 @@
 يستخدم هذا المشروع python3، ويجب تثبيت المكتبات التالية لتشغيله:
 
 -   [نتورككس](https://networkx.github.io/)- يستخدم لعمل الرسم البياني PERT.
--   [ماتبلوتليب](https://matplotlib.org/)- يستخدم لإنشاء مخطط جانت، بالإضافة إلى إظهار وحفظ كل من الرسم البياني PERT ومخطط جانت.
+-   [Matplotlib](https://matplotlib.org/)- يستخدم لإنشاء مخطط جانت، بالإضافة إلى إظهار وحفظ كل من الرسم البياني PERT ومخطط جانت.
 
 ## إدخال البيانات
 
-يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv`و`tasks2.csv`)،
-أي أن كل صف يبدأ من الصف الثاني يجب أن يكون له مهمة ومدتها وجميع تبعياتها مفصولة بمسافات
+يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv`و`tasks2.csv`),
+i.e. each row starting from the second one should have a task, its duration and all its dependencies seperated by spaces
 
 ## اختبره
 
