@@ -4,7 +4,7 @@ Code Python pour générer un graphique PERT et un diagramme de Gantt en fonctio
 
 ## Exigences
 
-Ce projet utilise python3 et les bibliothèques suivantes doivent être installées pour l'exécuter :
+This project uses python3, and the following libraries must be installed to run it:
 
 -   [RéseauX](https://networkx.github.io/)- Utilisé pour réaliser le graphique PERT.
 -   [Matplotlib](https://matplotlib.org/)- Utilisé pour créer le diagramme de Gantt, ainsi que pour afficher et enregistrer le graphique PERT et le diagramme de Gantt.
