@@ -6,7 +6,7 @@
 
 该项目使用python3，必须安装以下库才能运行：
 
--   [NetworkX](https://networkx.github.io/)- 用于制作 PERT 图。
+-   [网络X](https://networkx.github.io/)- 用于制作 PERT 图。
 -   [Matplotlib](https://matplotlib.org/)- 用于制作甘特图，以及显示和保存 PERT 图和甘特图。
 
 ## 数据输入
@@ -16,4 +16,4 @@
 
 ## 测试一下
 
-可以通过运行简单的 tkinter GUI 来测试该项目`gui.py`使用 python3 解释器，尽管所有重要的代码都在`pert.py` which can also be run after specifying which file is to be loaded.
+可以通过运行简单的 tkinter GUI 来测试该项目`gui.py`使用 python3 解释器，尽管所有重要的代码都在`pert.py`也可以在指定要加载的文件后运行。
