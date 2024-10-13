@@ -1,8 +1,8 @@
-# PERTgen
+# PERTGEN
 
 > PERT ग्राफ़ और गैंट चार्ट उत्पन्न करने के लिए पायथन कोड को एक कार्य शेड्यूल दिया गया है।
 
-Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at <https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
+"फ्लास्क ब्लूप्रिंट और फ्लास्क-SQLAlchemy के साथ एक बड़े फ्लास्क अनुप्रयोग की संरचना कैसे करें" पर आधारित<https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
@@ -34,9 +34,8 @@ Based on "How To Structure a Large Flask Application with Flask Blueprints and F
 
 MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Start the virtual environment and enter: `. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
-4) भागो`$ pip install -r requirements.txt`5) भागो:`$ npm install`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`
-11) Run the flask app: `(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
+3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
+4) भागो`$ pip install -r requirements.txt`5) भागो:`$ npm install`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ:`(.venv) $ flask run`12) संकेतानुसार वेब इंटरफ़ेस खोलें
 13) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
 14) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`15) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
 16) प्रयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
