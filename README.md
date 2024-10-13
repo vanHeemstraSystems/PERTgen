@@ -2,8 +2,6 @@
 
 > Python code to generate a PERT graph and Gantt chart given a task schedule.
 
-> Slugline
-
 Based on "How To Structure a Large Flask Application with Flask Blueprints and Flask-SQLAlchemy" at https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
 
 Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlalchemy/
