@@ -49,7 +49,7 @@
 
 ## إدخال البيانات
 
-The task data must be given in a CSV file, in the format of the sample ones given (`tasks.csv`و`tasks2.csv`)،
+يجب تقديم بيانات المهمة في ملف CSV، بتنسيق العينات المقدمة (`tasks.csv`و`tasks2.csv`)،
 أي أن كل صف يبدأ من الصف الثاني يجب أن يكون له مهمة ومدتها وجميع تبعياتها مفصولة بمسافات
 
 ## اختبره
