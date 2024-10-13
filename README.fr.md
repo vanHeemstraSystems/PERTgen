@@ -6,13 +6,13 @@ Basé sur « Comment structurer une grande application Flask avec des plans Flas
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy/>
 
-Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
+Basé sur le « modèle d'usine » à<https://github.com/vanHeemstraSystems/factory-pattern>
 
 Basé sur les « Diagrammes de relations d'entités basés sur du texte avec Mermaid.js » sur<https://newdevsguide.com/2023/04/08/creating-erds-with-mermaid/>
 
 Basé sur "FlowBite" à<https://github.com/themesberg/flowbite>
 
-Ouvrez cette URL avec`https://github.dev/` instead of `https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
+Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour utiliser l'EDI Web Visual Studio Code.
 
 Exécutez cette application comme suit :
 
@@ -49,7 +49,7 @@ Ce projet utilise python3 et les bibliothèques suivantes doivent être install�
 
 ## Saisie de données
 
-The task data must be given in a CSV file, in the format of the sample ones given (`tasks.csv`et`tasks2.csv`),
+Les données de la tâche doivent être renseignées dans un fichier CSV, au format de ceux donnés en exemple (`tasks.csv`et`tasks2.csv`),
 c'est-à-dire que chaque ligne à partir de la seconde doit avoir une tâche, sa durée et toutes ses dépendances séparées par des espaces
 
 ## Testez-le
