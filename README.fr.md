@@ -16,7 +16,8 @@ Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.dev/`pour ut
 
 Exécutez cette application comme suit :
 
-1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
+1) Entrez`flask_app`annuaire:`$ cd flask_app`
+2) If non-existent, create a virtual environment inside the `flask_app` directory: `$ python3 -m venv .venv`(macOS :`$ virtualenv .venv`)
 
 Dans les cas suivants, suivez ses conseils :
 
@@ -49,9 +50,9 @@ Ce projet utilise python3 et les bibliothèques suivantes doivent être install�
 
 ## Saisie de données
 
-Les données de la tâche doivent être renseignées dans un fichier CSV, au format de ceux donnés en exemple (`tasks.csv`et`tasks2.csv`),
+Les données de la tâche doivent être renseignées dans un fichier CSV, au format de ceux donnés en exemple (`tasks.csv` and `tasks2.csv`),
 c'est-à-dire que chaque ligne à partir de la seconde doit avoir une tâche, sa durée et toutes ses dépendances séparées par des espaces
 
-## Testez-le
+## Test it
 
 Le projet peut être testé avec la simple interface graphique tkinter en exécutant`gui.py`avec l'interpréteur python3, bien que tout le code important soit dans`pert.py`qui peut également être exécuté après avoir spécifié quel fichier doit être chargé.
