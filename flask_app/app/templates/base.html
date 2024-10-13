@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{% block title %} {% endblock %}</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
+   <script src="https://cdn.babylonjs.com/babylon.js"></script>
+   <style>
+       #renderCanvas {
+           width: 100%;
+           height: 100vh;
+           touch-action: none;
+       }
+   </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+    <hr>
+    {% include 'messages.html' %}
+    <script src="{{ url_for('static', filename='js/flowbite.js') }}."></script>
+</body>
+</html>
