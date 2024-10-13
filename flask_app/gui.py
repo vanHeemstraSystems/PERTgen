@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter.filedialog import *
-import pert
+import flask_app.pert as pert
 
 root=Tk();
 root.title('PERT')

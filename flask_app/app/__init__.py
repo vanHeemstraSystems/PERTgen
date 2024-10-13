@@ -1,9 +1,5 @@
 #!/usr/bin/env python
-import csv
-import matplotlib.pyplot as plt
-import networkx as nx
 from app.extensions import db, bcrypt, login_manager, socketio
-from collections import defaultdict
 from config import Config
 from flask import Flask
 
