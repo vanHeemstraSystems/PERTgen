@@ -59,8 +59,35 @@ def make_pert_chart(graph, startTimes, completionTimes, slackTimes, criticalPath
     plt.savefig('pert.png', bbox_inches = 'tight')
     plt.show()
 
-
-
+def make_gantt_chart(graph, startTimes, completionTimes, durations, slackTimes):
+    
+    fig, ax = plt.subplots()
+    y_values = sorted(startTimes.keys(), key = lambda x: startTimes[x])
+    y_start = 40
+    y_height = 5
+    for value in y_values:
+        ax.broken_barh([(startTimes[value], durations[value])], (y_start, y_height), facecolors = 'blue')
+        ax.broken_barh([(completionTimes[value], slackTimes[value])], (y_start, y_height), facecolors = 'red')
+        ax.text(completionTimes[value] + slackTimes[value] + 0.5,y_start + y_height/2, value)
+        y_start += 10
+    ax.set_xlim(0, max(completionTimes.values()) + 5)
+    ax.set_ylim(len(durations)*20)
+    ax.set_xlabel('Time')
+    ax.set_ylabel('Tasks')
+    i = 5
+    y_ticks = []
+    y_ticklabels = []
+    while i < len(durations)*20:    
+        y_ticks.append(i)
+        i += 10
+    ax.set_yticks(y_ticks)
+    plt.tick_params(
+    axis='y',          # changes apply to the x-axis
+    which='both',      # both major and minor ticks are affected
+    left='off',         # ticks along the top edge are off
+    labelleft='off') # labels along the bottom edge are off
+    plt.savefig('gantt.png', bbox_inches = 'tight')
+    plt.show()
 
 def main(filename):
 
@@ -131,7 +158,7 @@ def main(filename):
     print(criticalPaths)
 
     make_pert_chart(graph, startTimes, completionTimes, slackTimes, criticalPaths)
-    # make_gantt_chart(graph, startTimes, completionTimes, duration, slackTimes)   
+    make_gantt_chart(graph, startTimes, completionTimes, duration, slackTimes)   
 
 if __name__ == "__main__":
     # socketio.run(app)
